@@ -240,7 +240,7 @@ export class Ui{
     
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="your name">
-                        <input id="passwordInput" data-v="pass" placeholder="Enter Your Password" class="chek form-control" type="text">
+                        <input id="passwordInput" data-v="pass" placeholder="Enter Your Password" class="chek form-control" type="password">
                         <div id="passwordAlert" class="alert alert-danger w-100 mt-2 d-block text-center d-none">
                             <p>Enter valid password *Minimum eight characters, at least one letter and one number:*</p>
                         </div>
@@ -249,7 +249,7 @@ export class Ui{
     
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="your name">
-                        <input id="repasswordInput" data-v="repass" placeholder="Re Your Password" class="chek form-control" type="text">
+                        <input id="repasswordInput" data-v="repass" placeholder="Re Your Password" class="chek form-control" type="password">
                         <div id="repasswordAlert" class="alert alert-danger w-100 mt-2 d-block text-center d-none">
                             <p>Enter valid repassword </p>
                         </div>
