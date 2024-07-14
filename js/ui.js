@@ -200,7 +200,7 @@ export class Ui{
 
     displayContact(){
         this.kobaia=`
-        <div class="inouts row g-4 align-content-center ps-5  ">
+        <div class="inouts row g-4 align-content-center ">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="your name">
                         <input  id="nameInput" data-v="name" placeholder="Enter Your Name" class="chek form-control" type="text">
