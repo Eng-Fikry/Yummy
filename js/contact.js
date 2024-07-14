@@ -5,9 +5,12 @@ export class Contact{
     constructor(){
         this.ui=new Ui()
         this.att=""
+        this.width=$("nav").outerWidth()
 
         $(".contcts").click(()=>{
-
+            $(".navb").css("left",-this.width)
+            $(".bar").removeClass("d-none")
+            $(".xM").addClass("d-none")
             this.ui.displayContact()
 
             document.querySelectorAll(".chek").forEach((inpt)=>{
